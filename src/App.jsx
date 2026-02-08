@@ -4,6 +4,7 @@ import ComponentTwo from "./components/ComponentTwo";
 import ExampleOne from "./components/ExampleOne";
 import ExampleTwo from "./components/ExampleTwo";
 import ExampleThree from "./components/ExampleThree";
+import Counter from "./Challenge/Counter";
 
 
 
@@ -23,6 +24,19 @@ function App() {
          <ExampleTwo />
 
          <ExampleThree />
+
+         <h1>Challenge Exercises</h1>
+         <h2>Step 1: </h2>
+         <p>Basic Usage of useState</p>
+         
+         <Counter />
+
+         <h2>Step 2: </h2>
+         <p>useState with an Array of Data</p>
+
+
+         <h2>Step 3: </h2>
+         <p>useState with an Obkect of Data</p>
       </section>
     </>
   )
