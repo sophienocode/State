@@ -5,6 +5,7 @@ import ExampleOne from "./components/ExampleOne";
 import ExampleTwo from "./components/ExampleTwo";
 import ExampleThree from "./components/ExampleThree";
 import Counter from "./Challenge/Counter";
+import TodoList from "./Challenge/TodoList";
 
 
 
@@ -34,6 +35,7 @@ function App() {
          <h2>Step 2: </h2>
          <p>useState with an Array of Data</p>
 
+         <TodoList />
 
          <h2>Step 3: </h2>
          <p>useState with an Obkect of Data</p>
