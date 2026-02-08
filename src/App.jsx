@@ -3,6 +3,7 @@ import ComponentOne from "./components/ComponentOne";
 import ComponentTwo from "./components/ComponentTwo";
 import ExampleOne from "./components/ExampleOne";
 import ExampleTwo from "./components/ExampleTwo";
+import ExampleThree from "./components/ExampleThree";
 
 
 
@@ -20,6 +21,8 @@ function App() {
          <ExampleOne /> 
 
          <ExampleTwo />
+
+         <ExampleThree />
       </section>
     </>
   )
